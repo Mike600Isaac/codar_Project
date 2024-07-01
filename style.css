@@ -1,0 +1,867 @@
+
+/* -------------Generic Styling Starts-------------- */
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+  margin: 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #000000;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* .container
+{
+  margin: 0 10%;
+} */
+/* -------------Generic Styling Ends-------------- */
+
+/* --------------Header Styling Starts------------------- */
+#header
+{
+  background-color: #FFFBF5;
+  position: relative;
+}
+/* .nav-bar
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 20px 0;
+  font-weight: 700;
+} */
+.nav-bar ul
+{
+  display: flex;
+  gap: 30px;
+}
+.nav-bar .font-icon
+{
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Playball', cursive !important;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.nav-bar ul li
+{
+  list-style: none;
+  overflow: hidden;
+  transition: display 0.5s;
+}
+/* Dropdown for Pages */
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  font-weight: 600;  
+  border: none;
+  outline: none;
+  color:#9a9a9a;
+  transition: color 0.5s;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #d4a762;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  border-radius: 10px;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  transition: color 0.2s, background-color 0.2s;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #d4a762;
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+span
+{
+  color: #d4a762;
+}
+.nav-bar ul li a
+{
+  text-decoration: none;
+  color: #9a9a9a; 
+  transition: color 1s;
+}
+.nav-bar ul li a:hover
+{
+  color: #d4a762;
+}
+.search-book-icons
+{
+  display: flex;
+  gap: 30px;
+}
+.first-icon
+{
+  font-size: 20px;
+  color: #000000;
+  background-color: #d4a762;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  transition: color 0.5s, background-color 0.5s;
+}
+.second-icon
+{
+  color: #000000;
+  background-color: #d4a762;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 10px;
+  width: 160px;
+  transition: color 0.5s, background-color 0.5s;
+}
+.first-icon:hover, .second-icon:hover
+{
+  background-color: #000000;
+  color: #d4a762;
+}
+#header .container hr
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.header-content
+{
+  padding: 10% 0;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  color: #000000;
+}
+.left-header-cont
+{
+  margin-top: 80px;
+  width: 600px;
+}
+.handburger
+{
+  color: #d4a762;
+  font-size: 28px;
+  display: none;
+}
+
+.welcome-p
+{
+  font-size: 15px;
+  background-color: #FFFBF5;
+  color: #000000;
+  border: 1px solid #d4a762;
+  display: inline;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+.left-header-cont .book-cater
+{
+  font-size: 75px;
+  font-family: 'Playball', cursive; 
+  margin: 0;
+}
+.right-header-cont img
+{
+ height: 420px;
+}
+.left-header-cont .button-icon
+{
+  margin: 30px 30px 0 0;
+  height: 50px;
+  width: 180px;
+  border-radius: 30px;
+}
+/* --------------Header Styling Ends----------------------- */
+
+/* --------------About Us Styling Starts------------------- */
+#about-us
+{
+  margin-top: 10%;
+}
+#about-us .container .about-us
+{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.about-us-main-content
+{
+  margin-top: 20px;
+  width: 600px;
+
+} 
+.about-us-image img
+{
+  width: 550px;
+  height: 470px;
+  border-radius: 10px;
+}
+.about-us-content p, .about-us-content h1
+{
+  margin: 20px 0;
+}
+
+.about-us-content p
+{
+  color: #9a9a9a;
+}
+
+.curve {
+  font-size: 42px;
+  font-family: 'Playball', cursive; 
+  margin: 30px 0;
+}
+.para-container
+{
+  display: flex;
+}
+.para-item
+{
+  color: #000000;
+  display: flex;
+  margin-bottom: 30px;
+}
+.para-item p
+{
+  margin-right: 40px;
+}
+.para-item i
+{
+  color: #d4a762;
+}
+.about-us-main-content button
+{
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+/* -----About Us Others section Styling Starts----------  */
+ .about-us-others
+ {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 15%;
+  align-items: center;
+ }
+
+ .about-us-others div
+ {
+  color: #000000;
+ }
+.others-1
+{
+  background-color: #d4a762;  
+  width: 190px;
+  height: 270px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+.about-us-others div p
+{
+  margin: 20px 0;
+}
+.ranging-values
+{
+  font-family: 'playball', cursive;
+  font-weight: 700;
+}
+.about-us-others p i
+{
+  color: #fff;
+}
+.about-us-others div .posture
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+.others-2
+{
+  background-color: #d4a762;
+  width: 190px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 60px;
+} /* -----About Us Others section Styling Starts------  */
+
+/* ------------------About Us Section Styling Ends------------  */
+
+
+/* ----Our Service Section Styling Starts---------- */
+#services
+{
+  margin: 10% 0;
+}
+.service-heading
+{
+  text-align: center;
+}
+
+#services .container .service-item 
+{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+#services .container .service-item div
+{
+  height: 340px;
+  width: 280px;
+  text-align: center;
+  background-color: #FFFBF5;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 12px #f4f0f0;
+  position: relative;
+}
+#services .container .service-item div p i
+{
+  font-size: 90px;
+  color: #d4a762;
+  margin: 20px 0;
+}
+.serv-p
+{
+  color: #9a9a9a;
+  margin: 20px 0;
+}
+.service-icon
+{
+  color: #000000;
+  background-color: #d4a762;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 10px;
+  width: 160px;
+  transition: color 0.5s, background-color 0.5s;
+  margin-top: 10px;
+}
+
+/* NOT TO BE DONE!
+#services .container .service-item div:hover
+{
+  background-color: #d4a762;
+  position: absolute;
+} */
+.event-buttons
+{
+  display: flex;
+  justify-content: center;
+}
+.serv-but-more
+{
+  padding: 10px 40px;
+  font-weight: 100;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.event-images-container 
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.event-images-container div
+{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.event-images-container div img
+{
+ width: 280px;
+ height: 250px;
+ border-radius: 10px;
+}
+.event-images
+{
+  margin-bottom: 25px;
+}
+.last-event-images
+{
+  margin: 0 0 20px 0;
+}
+/* ----Our Service Section Styling Ends---------- */
+
+/* ------------Our Menu Section Starts----------- */
+#menu
+{
+  margin: 10% 0 0 0;
+  padding: 10% 0;
+  background-color: #FFFBF5;
+}
+.service-list-menu
+{
+  margin-top: 5%;
+}
+.service-list-menu .row
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+.service-list-menu .row div p
+{
+  color: #9a9a9a;
+}
+.service-list-menu .row div hr
+{
+  margin: 20px 0 10px;
+  border: 1px dashed #d4a762;
+}
+
+.service-list-menu .row div div
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.among-aligned
+{
+  font-size: 25px;
+  font-weight: 700;
+}
+/* --------------Our Menu Section Ends------------- */
+
+/* -------Pages Section Starts--------------------- */
+#pages
+{
+  margin-top: 10%;
+}
+#pages .container
+{
+  background-image: url("project\ images/background-site.jpg");
+}
+#pages .container .book-us
+{
+  margin: 0 10% ;
+  background-color: #FFFBF5;
+  border-bottom: 1px solid #d4a762;
+  border-top: 1px solid #d4a762;
+}
+.padd-book-us
+{
+  margin-top: 5%;
+}
+.form-container div
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.form-container div div select, .form-container .form-row-3 input
+{
+  width: 250px;
+  padding-left: 5px;
+  height: 45px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #d4a762;
+}
+.form-container div div select:focus, .form-container .form-row-3 input:focus
+{
+  outline: none;
+  box-shadow: 1px 1px 5px 3px rgba(212,167,98,0.5);
+}
+.form-container button
+{
+  margin: 15px 0;
+}
+/* ----------Pages Section Ends----------------------- */
+
+
+
+/* ----------Our Team Section Starts------------- */
+#our-team .container
+{
+  margin-top: 10%;
+}
+.team-image
+{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.team-image div
+{
+  background-color: #000000;
+  width: 250px;
+  border-radius: 12px;
+  position: relative;
+  transition: background-color 0.5s;
+}
+.fa-share-nodes
+{
+  margin-bottom: 160px;
+  font-size: 15px;
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram
+{
+  font-size: 10px;
+  display: none;
+}
+.fa-facebook-f
+{
+  margin-bottom: 120px;
+}
+.fa-twitter 
+{
+  margin-bottom: 80px;
+}
+.fa-instagram
+{
+  margin-bottom: 40px;
+}
+
+.team-image div:hover 
+{
+  background-color: #d4a762;
+}
+/* Yet to be Done!
+
+.team-image-item div
+{
+  transition: display 1s;
+} */
+.team-image div:hover .fa-facebook-f, .team-image div:hover .fa-twitter, .team-image div:hover .fa-instagram
+{
+  display: block;
+}
+.team-image-item:hover h1
+{
+  color: #000000;
+}
+.team-image-item div div i
+{
+  position: absolute;
+  bottom: 90px;
+  right: 20px;
+}
+.team-image div div
+{
+  text-align: center;
+}
+.team-image div p
+{
+  padding: 10px 0;
+  color: #fff;
+}
+.team-image div h1
+{
+  color: #d4a762;
+  margin-top: 10px;
+  transition: color 0.5s;
+}
+.team-image div img
+{
+  width: 250px;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+ margin: 0 30px 0 0;
+}
+
+/* -------Testimonial Section Starts---------- */
+#testimonal
+{
+  margin-top: 10%;
+}
+.row-1
+{
+  display: flex;
+}
+.testimonial-content-1 
+{
+  border: 1px solid #d4a762;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 0 15px 15px;
+  display: block;
+  width: 390px;
+  height: 270px;
+  background-color: #FFFBF5;
+}
+.testimonial-content-1 p
+{
+  color: #9a9a9a;
+}
+.flex-item
+{
+  display: flex;
+  margin: 15px;
+}
+.flex-item div h1
+{
+  color: #000000;
+  font-size: 20px;
+}
+.flex-item div p
+{
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.flex-item div img
+{
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+/* --------Our Blog Section Starts----------- */
+#our-blog
+{
+  margin-top: 10%;
+}
+.our-blog-container
+{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.our-blog-container div
+{
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+.our-blog-container div img
+{
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.our-blog-container div div
+{
+  display: flex;
+}
+.our-blog-container div div div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dates
+{
+  background-color: #d4a762;
+}
+.our-blog-container div:hover img
+{
+  transform: scale(1.5);
+}
+
+/* -----------Our Blog Section Ends--------------------- */
+
+
+/* -------------Footer Section Starts------------------- */
+#footer-section
+{
+  margin-top: 10%;
+  background-color: #FFFBF5;
+  padding: 5% 0;
+}
+.footer-content div
+{
+  max-width: 310px;
+  line-height: 25px;
+
+}
+.footer-content
+{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.footer-content div h2
+{
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.footer-content div .cater-style
+{
+  font-family: 'playball', cursive;
+}
+.cater-color
+{
+  color: #d4a762;
+}
+.footer-content div p
+{
+  color: #9a9a9a;
+}
+.footer-content div ul li
+{
+  list-style: none;
+}
+.footer-content div ul li a
+{
+  text-decoration: none;
+  color: #9a9a9a;
+  font-size: 12px;
+}
+.footer-content .special-tag ul li a:hover
+{
+  color: #d4a762;
+}
+.footer-content div ul li a i
+{
+  color: #d4a762;
+  font-size: 14px;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.social-cont
+{
+  margin-top: 30px;
+}
+.fa-brands
+{
+  font-size: 18px;
+  color: #000000;
+  background-color: #d4a762;
+  border-radius: 50%;
+  padding: 10px 11px;
+  transition: color 0.5s, background-color 0.5s;
+}
+.fa-brands:hover
+{
+  background-color: #000000;
+  color: #d4a762;
+}
+.cont-image div
+{
+  display: flex;
+}
+.cont-image div img
+{
+  border-radius: 50%;
+  margin: 0 20px 20px 0;
+}
+/* -------------Footer Section Starts------------------- */
+
+
+/* -------------Copyright Section Starts---------------- */
+#copyright
+{
+  background-color: #000000;
+  padding: 20px 0;
+}
+#copyright .container
+{
+  margin: 0 10%;
+}
+#copyright .container .copyright-cont
+{
+  display: flex;
+  justify-content: center;
+  gap: 390px;
+}
+#copyright .container div p span
+{
+  color: #fff;
+}
+#copyright .container div p a
+{
+  color: #d4a762;
+}
+.remove-line
+{
+  text-decoration: none;
+}
+#copyright .container div p i
+{
+  /* color: #000000; */
+  background-color: #fff;
+  border-radius: 50%; 
+  border: none;
+}
+/* -------------Copyright Section Ends------------------- */
+
+/* ---------about main content section starts------------ */
+#main-content-section
+{
+  margin-top: 5%;
+  margin-bottom: 24%;
+}
+
+#main-content-section .main-content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-content-section .container .main-content .about-us
+{
+  font-size: 90px;
+  font-family:'Playball', cursive;
+  line-height: 1.5;
+  /* font-weight: 600; */
+}
+#main-content-section .container .main-content p a
+{
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.anchor-style
+{
+  color: #d4a762 !important;
+}
+/* -----------about main content section ends------------ */
+
+/* -----------Media-Query Section Starts----------------- */
+@media only screen and (max-width: 990px) {
+  .about-us
+  {
+    flex-wrap: wrap;
+  }
+}
