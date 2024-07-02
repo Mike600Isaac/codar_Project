@@ -184,7 +184,7 @@ span
 
 .welcome-p
 {
-  font-size: 15px;
+  font-size: 18px;
   background-color: #FFFBF5;
   color: #000000;
   border: 1px solid #d4a762;
@@ -247,7 +247,7 @@ span
 }
 
 .curve {
-  font-size: 42px;
+  font-size: 46px;
   font-family: 'Playball', cursive; 
   margin: 30px 0;
 }
@@ -398,19 +398,26 @@ span
   font-size: 18px;
   margin-left: 20px;
 }
-.event-images-container 
+.all-event, .dif-event
 {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
 }
-.event-images-container div
+.dif-event div
+{
+  display: flex;
+  /* justify-content: start; */
+  margin-left: 80px;
+  gap: 25px;
+}
+.all-event div
 {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
-.event-images-container div img
+.all-event div img, .dif-event div img
 {
  width: 280px;
  height: 250px;
@@ -865,3 +872,21 @@ span
     flex-wrap: wrap;
   }
 }
+
+.eBColor {
+  background-color: #d4a762;
+}
+
+/* Some js modification */
+
+.tab-contents {
+  display: none;
+}
+
+.tab-contents.active-tab
+ {
+  display: block;
+ }
+ .active-link {
+  background-color: #d4a762;
+ }
