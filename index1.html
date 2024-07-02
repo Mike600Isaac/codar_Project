@@ -170,17 +170,17 @@
   <div class="container">
     <div class="service-heading">
       <p class="welcome-p more-serv-style">LATEST EVENTS</p>
-      <H1 class="curve more-serv-style">Our Social & Professional Events Gallery</H1>
+      <H1 class="curve" style="font-weight: 500;">Our Social & Professional Events Gallery</H1>
     </div>
     <div class="event-buttons">
-      <button type="menu" class="welcome-p serv-but-more" >All Events</button>
-      <button type="menu" class="welcome-p serv-but-more">Wedding</button>
-      <button type="menu" class="welcome-p serv-but-more">Corperate</button>
-      <button type="menu" class="welcome-p serv-but-more">Cocktail</button>
-      <button type="menu" class="welcome-p serv-but-more">Buffet</button>
+      <button type="menu" class="clickEve welcome-p serv-but-more active-link a" onclick="openTab('event-all')" onload="removeClass()">All Events</button>
+      <button type="menu" class="clickEve welcome-p serv-but-more b" onclick="openTab('wedding-event')">Wedding</button>
+      <button type="menu" class="clickEve welcome-p serv-but-more c" onclick="openTab('corperate-event')">Corperate</button>
+      <button type="menu" class="clickEve welcome-p serv-but-more d" onclick="openTab('cocktail-event')">Cocktail</button>
+      <button type="menu" class="clickEve welcome-p serv-but-more e" onclick="openTab('buffet-event')">Buffet</button>
     </div>
     
-    <div class="event-images-container">
+    <div class=" all-event tab-contents active-tab " id="event-all">
       <div>
         <img class="event-images" src="project images/event-1.jpg" alt="">
         <img class="event-images" src="project images/event-2.jpg" alt="">
@@ -193,6 +193,30 @@
         <img class="event-images" src="project images/event-7.jpg" alt="">
         <img class="last-event-images" src="project images/event-8.jpg" alt="">
       </div>
+    </div>
+  </div>
+  <div class="dif-event tab-contents" id="wedding-event">
+    <div>
+      <img class="event-images" src="project images/event-1.jpg" alt="">
+      <img class="event-images" src="project images/event-2.jpg" alt="">
+    </div>
+  </div>
+  <div class="dif-event tab-contents" id="corperate-event">
+    <div>
+      <img class="event-images" src="project images/event-3.jpg" alt="">
+      <img class="last-event-images" src="project images/event-4.jpg" alt="">
+    </div>
+  </div>
+  <div class="dif-event tab-contents" id="cocktail-event">
+    <div>
+      <img class="event-images" src="project images/event-5.jpg" alt="">
+      <img class="event-images" src="project images/event-6.jpg" alt="">
+    </div>
+  </div>
+  <div class="dif-event tab-contents" id="buffet-event">
+    <div>
+      <img class="event-images" src="project images/event-7.jpg" alt="">
+      <img class="last-event-images" src="project images/event-8.jpg" alt="">
     </div>
   </div>
 </section>
